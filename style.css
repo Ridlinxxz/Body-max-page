@@ -235,7 +235,6 @@ h3 {
     padding: 10px 15px;
 }
 .body,
-.details,
 .img,
 .guy,
 .bmi,
@@ -283,12 +282,24 @@ h2 {
     font-size: 2.2rem;
 }
 .details {
+    margin: auto;
     padding: 20px 20px;
+    width: 90%;
 }
 .bmi {
     margin-top: 20px;
 }
 .welcome {
-    width: 85%;
+    width: 100%;
+}
+.hbox {
+    padding: 20px 10px 20px 110px;
+    width: 150px;
+}
+.enter {
+    font-size: 0.7rem;
+}
+.weight {
+    margin-left: 40px;
 }
 }
