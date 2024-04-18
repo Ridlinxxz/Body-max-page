@@ -284,7 +284,7 @@ h2 {
 .details {
     margin: auto;
     padding: 20px 20px;
-    width: 90%;
+    width: 85%;
 }
 .bmi {
     margin-top: 20px;
@@ -293,8 +293,9 @@ h2 {
     width: 100%;
 }
 .hbox {
-    padding: 20px 10px 20px 110px;
-    width: 150px;
+    height: 55px;
+    padding: 15px 10px 20px 90px;
+    width: 120px;
 }
 .enter {
     font-size: 0.7rem;
