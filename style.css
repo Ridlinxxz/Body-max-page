@@ -208,18 +208,31 @@ h3 {
 }
 
 /*=====media queries====*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
 .div1,
 .div2,
 .div3,
 .line1,
 .line2,
 .line3 {
+    margin: 20px auto;
         -webkit-flex-direction: column;
 }
 .wrap {
-    padding: 0px;
+    padding: auto 40px;
     width: 100%;
+}
+.div4,
+.div3 {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0px;
+}
+.line1,
+.healthy,
+.adequate,
+.regular {
+    padding: 10px 15px;
 }
 .body,
 .details,
@@ -241,24 +254,41 @@ h2,
 .limitation,
 p{
         width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: auto;
 }
 .pregnancy,
 .race {
-    width: 155%;
+    width: 100%;
+    margin: auto;
 }
 .gender {
     margin-left: -12px;
 }
-.age,
 .muscle,
-.pregnancy,
+.gender,
 .race {
-        margin-left: 60px;
+    margin-top: 20px;
     }
 .crypto1 {
     height: 28px;
     width: 28px;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.2rem;
+}
+.limitation {
+    font-size: 2.2rem;
+}
+.details {
+    padding: 20px 20px;
+}
+.bmi {
+    margin-top: 20px;
+}
+.welcome {
+    width: 85%;
 }
 }
