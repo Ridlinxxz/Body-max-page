@@ -303,5 +303,9 @@ h2 {
 }
 .enter {
     font-size: 0.7rem;
+    padding-right: 5px;
+}
+.imperial {
+    margin-left: 100px;
 }
 }
